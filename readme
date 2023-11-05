@@ -1,0 +1,14 @@
+This is an example of AXI DMA. I implemented an AXI cache memory with 32*32 bits size. This cache supports input/output stream with Slave AXI Stream/Master AXI Stream.
+This is based on Zynq MPSOC and is suitable for KRIA KV260
+
+To create the project:
+1- Clone the repository in "any location" 
+2- Open Vivado
+3- In the TCL Console write these commands
+  4- cd "any lication" 
+  5- set proj_name any_project_name
+  6- source ./create_project.tcl
+7- Synthesis the project
+8- Generate the XSA file
+9- Create platform project in Vitis
+10-Use the Vitis_src sources from the repository to create the application project.
